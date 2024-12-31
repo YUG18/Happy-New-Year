@@ -44,13 +44,11 @@ label {
 }
 
 #select {
-    height: 4.5vh;
-    margin-left: 0vh;
+    height: 3.5vh;
 }
 
 #button {
-    height: 4.5vh;
-    margin-bottom: 0vh;
+    height: 3.5vh;
     color: white;
     background-color: black;
     font-size: 2.5vh;
@@ -119,13 +117,11 @@ label {
 }
 
 #select {
-    height: 4.5vh;
-    margin-left: 0vh;
+    height: 3.5vh;
 }
 
 #button {
-    height: 4.5vh;
-    margin-bottom: 0vh;
+    height: 3.5vh;
     color: white;
     background-color: black;
     font-size: 2.5vh;
