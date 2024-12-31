@@ -14,10 +14,13 @@
 
 .form1 {
     background-color: #f4e9cd;
-    width: 65vh;
-    height: 65vh;
+    width: 50vh;
+    height: 50vh;
 }
-
+label {
+    font-size:3vh;
+    font-weight:bold;
+}
 #name {
     width: 35vh;
     height: 2.5vh;
@@ -71,3 +74,79 @@
 .responsemsg {
     background-color: #ffc300;
 }
+    @media (max-width : 600px){
+        * {
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+    background-color: #324376;
+}
+
+.form1 {
+    background-color: #f4e9cd;
+    width: 50vh;
+    height: 50vh;
+}
+label {
+    font-size:3vh;
+    font-weight:bold;
+}
+#name {
+    width: 35vh;
+    height: 2.5vh;
+     font-size: 2.5vh;
+}
+
+.form1 h2 {
+    text-align: center;
+    font-family: "Ysabeau SC", serif;
+}
+
+.form1 h2 {
+    text-align: center;
+    font-family: "Ysabeau SC", serif;
+}
+
+.form1 p {
+    font-size: 3.5vh;
+    font-weight: bold;
+    font-family: "Ysabeau SC", serif;
+}
+
+#select {
+    height: 4.5vh;
+    margin-left: 20vh;
+}
+
+#button {
+    height: 4.5vh;
+    margin-left: 30vh;
+    color: white;
+    background-color: black;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+#option {
+    font-size: 2.5vh;
+}
+
+#responseMessage {
+    text-align: center;
+        font-size: 3.5vh;
+}
+
+.responsemsg h2 {
+    text-align: center;
+    font-family: "Ysabeau SC", serif;
+}
+
+.responsemsg {
+    background-color: #ffc300;
+}
+    }
