@@ -14,12 +14,12 @@
 
 .form1 {
     background-color: #f4e9cd;
-    width: 80vh;
-    height: 70vh;
+    width: 65vh;
+    height: 65vh;
 }
 
 #name {
-    width: 52vh;
+    width: 35vh;
     height: 2.5vh;
     font-size: 2.5vh;
 }
