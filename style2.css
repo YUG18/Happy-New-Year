@@ -87,7 +87,7 @@ body {
     }
 }
 
-@media (max-width:600px) {
+@media (max-width : 600px) {
      body{
         background: linear-gradient(45deg, #f7a1d7, #fc77a4); 
      }
