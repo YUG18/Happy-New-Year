@@ -5,7 +5,7 @@ body {
 @media(max-width:600px) {
   body {
     background-image: url(bright.jpg);
-    background-size: 170% 180%;
+    background-size: 270% 280%;
   }
 }
 
