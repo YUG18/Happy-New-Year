@@ -88,6 +88,9 @@ body {
 }
 
 @media (max-width:600px) {
+     body{
+        background: linear-gradient(45deg, #f7a1d7, #fc77a4); 
+     }
     .y1 {
         background: linear-gradient(to right, #FF00FF, #00FFFF);
         -webkit-background-clip: text;
@@ -116,7 +119,5 @@ body {
         background: linear-gradient(to right, #FF4500, #FF6347);
         -webkit-background-clip: text;
         color: transparent;
-     body{
-        background: linear-gradient(45deg, #f7a1d7, #fc77a4); 
-    }
+}
 }
