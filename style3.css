@@ -125,8 +125,8 @@ label {
     color: white;
     background-color: black;
     font-size: 2.5vh;
+    margin-bottom:2vh;
     cursor: pointer;
-    margin-bottom:1vh;
 }
 
 #option {
