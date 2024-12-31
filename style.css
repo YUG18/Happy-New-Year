@@ -1,0 +1,119 @@
+body {
+  background-image: url(bright.jpg);
+}
+
+@media(max-width:600px) {
+  body {
+    background-image: url(bright.jpg);
+    background-size: 170% 180%;
+  }
+}
+
+@media(min-width:600px) {
+  body {
+    background-image: url(bright.jpg);
+    background-size: 140% 150%;
+  }
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vh;
+  margin-left: 40vh;
+}
+
+.message p {
+  font-size: 4.5vh;
+  font-weight: bold;
+  background: linear-gradient(to right, #8B0000, #800000, #3E2723);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.button1 {
+  display: inline-block;
+  margin-top: 20vh;
+  margin-left: 10vh;
+}
+
+#buuton1 {
+  font-size: 30px;
+  font-family: 'Satisfy', sans-serif;
+  color: white;
+  background: linear-gradient(to right, #4B0082, #EE82EE);
+  cursor: pointer;
+}
+
+#buuton1:hover {
+  opacity: 0.75;
+}
+
+.button2 {
+  display: inline-block;
+  margin-top: 20vh;
+  margin-left: 10vh;
+}
+
+#buuton2 {
+  font-size: 30px;
+  font-family: 'Satisfy', sans-serif;
+  color: white;
+  background: linear-gradient(to right, #808000, #9ACD32);
+  cursor: pointer;
+}
+
+#buuton2:hover {
+  opacity: 0.75;
+}
+
+.button3 {
+  display: inline-block;
+  margin-top: 20vh;
+  margin-left: 10vh;
+}
+
+#buuton3 {
+  font-size: 30px;
+  font-family: 'Satisfy', sans-serif;
+  color: white;
+  background: linear-gradient(to right, #FF6A13, #F9A825);
+  cursor: pointer;
+}
+
+#buuton3:hover {
+  opacity: 0.75;
+}
+
+@media (max-width:600px) {
+  .message p {
+    background: linear-gradient(to right, #8B0000, #800000, #3E2723);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  #buuton1 {
+    font-size: 30px;
+    font-family: 'Satisfy', sans-serif;
+    color: white;
+    background: linear-gradient(to right, #4B0082, #EE82EE);
+    cursor: pointer;
+  }
+
+  #buuton2 {
+    font-size: 30px;
+    font-family: 'Satisfy', sans-serif;
+    color: white;
+    background: linear-gradient(to right, #808000, #9ACD32);
+    cursor: pointer;
+  }
+
+  #buuton3 {
+    font-size: 30px;
+    font-family: 'Satisfy', sans-serif;
+    color: white;
+    background: linear-gradient(to right, #FF6A13, #F9A825);
+    cursor: pointer;
+  }
+}
